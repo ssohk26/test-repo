@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>커피 프랜차이즈 로고 갤러리</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      background: #f5f0eb;
+      color: #3e2723;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #3e2723, #5d4037);
+      color: #fff;
+      text-align: center;
+      padding: 48px 20px;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+    header p { font-size: 1rem; opacity: 0.8; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+    .card .img-wrap {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #fafafa;
+    }
+    .card .img-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .card .info {
+      padding: 20px;
+      border-top: 1px solid #f0e8e0;
+    }
+    .card .info h2 {
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+    }
+    .card .info p {
+      font-size: 0.85rem;
+      color: #8d6e63;
+      margin-bottom: 12px;
+    }
+    .card .info a {
+      display: inline-block;
+      font-size: 0.8rem;
+      color: #5d4037;
+      text-decoration: none;
+      border: 1px solid #d7ccc8;
+      padding: 6px 14px;
+      border-radius: 20px;
+      transition: background 0.2s;
+    }
+    .card .info a:hover {
+      background: #efebe9;
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 0.8rem;
+      color: #a1887f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>커피 프랜차이즈 로고 갤러리</h1>
+    <p>한국 주요 커피 브랜드 로고 모음</p>
+  </header>
+  <div class="grid">
+    <div class="card">
+      <div class="img-wrap"><img src="starbucks.png" alt="스타벅스"></div>
+      <div class="info">
+        <h2>스타벅스</h2>
+        <p>Starbucks Coffee Korea</p>
+        <a href="starbucks.png" download>다운로드</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-wrap"><img src="ediya.png" alt="이디야커피"></div>
+      <div class="info">
+        <h2>이디야커피</h2>
+        <p>Ediya Coffee</p>
+        <a href="ediya.png" download>다운로드</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-wrap"><img src="compose.png" alt="컴포즈커피"></div>
+      <div class="info">
+        <h2>컴포즈커피</h2>
+        <p>Compose Coffee</p>
+        <a href="compose.png" download>다운로드</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-wrap"><img src="mega_official.png" alt="메가MGC커피"></div>
+      <div class="info">
+        <h2>메가MGC커피</h2>
+        <p>Mega MGC Coffee</p>
+        <a href="mega_official.png" download>다운로드</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-wrap"><img src="paik.png" alt="빽다방"></div>
+      <div class="info">
+        <h2>빽다방</h2>
+        <p>Paik's Coffee</p>
+        <a href="paik.png" download>다운로드</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-wrap"><img src="twosome.png" alt="투썸플레이스"></div>
+      <div class="info">
+        <h2>투썸플레이스</h2>
+        <p>A Twosome Place</p>
+        <a href="twosome.png" download>다운로드</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-wrap"><img src="hollys.gif" alt="할리스커피"></div>
+      <div class="info">
+        <h2>할리스커피</h2>
+        <p>Hollys Coffee</p>
+        <a href="hollys.gif" download>다운로드</a>
+      </div>
+    </div>
+  </div>
+  <footer>Coffee Franchise Logo Gallery &copy; 2026</footer>
+</body>
+</html>
